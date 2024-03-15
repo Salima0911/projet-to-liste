@@ -1,6 +1,6 @@
 <?php
 require_once(__DIR__ . '/../../src/Controllers/HomeController.php');
-require_once(__DIR__ . "/parts/footer.php");
+require_once(__DIR__ . "/parts/header.php");
 ?>
 <h1>Hello 👌</h1>
 <?php

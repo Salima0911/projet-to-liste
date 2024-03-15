@@ -16,6 +16,7 @@
     </title>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css" integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -31,14 +32,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/product">product list</a>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login">Connection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/register">inscrire</a>
+                        <a class="nav-link" href="/register">inscription</a>
                     </li>
 
                     <li class="nav-item">
