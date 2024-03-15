@@ -21,25 +21,29 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" style="background-color: rgba(0, 0, 0, 0.05);">
-            <div class="container-fluid">
-                <a class="navbar-brand mt-2 mt-lg-0" href="/">
-                    <img src="public/img/logo.png" height="60" />
-                </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/public/img/logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                Todo Liste
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <?php
+                if (isset($_SESSION['user'])) {
+                ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Acceuil</a>
+                        <a class="nav-link" href="/logout">Déconnection</a>
                     </li>
-
+                <?php
+                } else {
+                ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/register">inscription</a>
+                        <a class="nav-link" href="/register">Inscription</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="/logout">Deconnection</a>
+                        <a class="nav-link" href="/login">Connection</a>
                     </li>
-
-
-                </ul>
-            </div>
-        </nav>
+                <?php } ?>
+            </ul>
+        </div>
+    </nav>
